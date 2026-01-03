@@ -18,27 +18,27 @@ Class Distribution
 
 The dataset is highly imbalanced. Most messages belong to class 0 (non-toxic/normal), while only a smaller portion belongs to class 1 (toxic). This indicates that toxic messages are relatively rare compared to normal ones. Because of this imbalance, special care may be needed during model training to avoid bias toward the majority class. 
 
-!(images/class.jpeg)
+![Class Distribution](images/class.jpeg)
 
 Message Length Distribution
 
 Most messages are short, with text length concentrated at the lower end. A few messages are significantly longer, creating a right-skewed distribution. This shows that typical user comments are brief, while only a small number contain long detailed text.
 
-!(images/msg_len.jpeg)
+![Message Length Distribution](images/msg_len.jpeg)
 
 Word Count Distribution
 
 The majority of comments contain very few words, typically under 50. Only a small number of comments are long, resulting in a right-skewed distribution. This indicates that most users prefer short, concise messages, while longer comments are rare outliers.
 
 
-!(images/word_count.jpeg)
+![Word Count Distribution](images/word_count.jpeg)
 
 
 Top 20 Most Frequent Words
 
 The most common words include neutral conversational terms such as “article”, “page”, “please”, “like”, and “wikipedia”. These words are general-purpose and appear frequently across both toxic and non-toxic comments. This suggests that keywords alone may not be enough — context is important when detecting toxicity.
 
-!(images/frequent.jpeg)
+![Top 20 frequent words](images/frequent.jpeg)
 
 PREPROCESSING
 
@@ -67,7 +67,7 @@ Classification Report:
 weighted avg       0.95      0.95      0.95     31915
 
 
-
+![Confusion Matrix](images/confusion.jpeg)
 
 EXPERIMENTAL TESTING
 
