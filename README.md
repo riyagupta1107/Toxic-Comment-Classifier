@@ -1,7 +1,11 @@
 # Toxic-Comment-Classifier
 This project builds a real-time Toxic Comment Classifier that detects whether a given message is toxic or non-toxic. It uses text preprocessing, TF-IDF feature extraction, and a Logistic Regression model. The system is deployed with Streamlit, allowing users to type any message and instantly get the prediction.
 
+Deployed Link: https://toxic-comment-classifier-bq45d8bjrcardwzudkteis.streamlit.app/
+
 DATASET DESCRIPTION
+
+Dataset Link: https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data
 
 We are provided with a large number of Wikipedia comments which have been labeled by human raters for toxic behavior. The types of toxicity are:
 
